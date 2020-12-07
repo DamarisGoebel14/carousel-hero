@@ -1,0 +1,13 @@
+.imagediv{
+    width:100vw;
+    /*height: 1vh;*/
+    display:inline-block;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+
+}
