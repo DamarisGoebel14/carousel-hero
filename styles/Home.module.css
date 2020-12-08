@@ -120,3 +120,12 @@
     flex-direction: column;
   }
 }
+
+.imagediv {
+  display:inline-block;
+  width:100vw;
+  height:600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
