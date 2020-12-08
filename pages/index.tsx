@@ -33,7 +33,7 @@ function Index() {
           {data.map(data => {
               return (
                   <div className={styles.imagediv}
-                       style={{backgroundImage: "url(" + data.image +")"}}>
+                       style={{backgroundImage: "url(" + data.image +")"}} key={data.id}>
                       <p>{data.text}</p>
                       <button>{data.button}</button>
                   </div>
