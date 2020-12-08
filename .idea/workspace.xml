@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0e1acc-e6f7-4628-a6c3-56063f4b8e07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Slider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Slider.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607356611189</updated>
       <workItem from="1607356612279" duration="4176000" />
-      <workItem from="1607416254549" duration="12690000" />
+      <workItem from="1607416254549" duration="13865000" />
     </task>
     <servers />
   </component>

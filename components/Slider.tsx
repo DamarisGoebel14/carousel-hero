@@ -2,16 +2,11 @@ import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from './Slider.module.css'
+import { ResponsiveType, ArrowProps } from 'react-multi-carousel/lib/types';
 
-export interface ResponsiveType {
-    [key: string]: {
-        breakpoint: { max: number; min: number };
-        items: number;
-        slidesToSlide?: number;
-
-    }
+interface Props {
+    children: any
 }
-
 
 const responsive:ResponsiveType = {
     superLargeDesktop: {
@@ -34,7 +29,7 @@ const responsive:ResponsiveType = {
     }
 };
 
-const CustomLeft = () => (
+const CustomLeft= () => (
     <button disabled={true}>
     Prev
     </button>
@@ -42,7 +37,7 @@ const CustomLeft = () => (
 
 
 
-const CustomRight = ({onClick}) => (
+const CustomRight = ({onClick}:ArrowProps) => (
     <button className={styles.right} onClick={onClick}>
         <div className={styles.kasten}>
     Next
